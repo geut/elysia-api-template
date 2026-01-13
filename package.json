@@ -1,0 +1,33 @@
+{
+  "name": "elysia-api-template",
+  "private": true,
+  "type": "module",
+  "module": "index.ts",
+  "scripts": {
+    "lint": "oxlint",
+    "format": "oxfmt",
+    "lint:fix": "oxlint --fix",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,jsx}": "bun run lint:fix"
+  },
+  "dependencies": {
+    "better-auth": "^1.4.12",
+    "drizzle-kit": "^0.31.8",
+    "drizzle-orm": "^0.45.1",
+    "elysia": "^1.4.21",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "oxfmt": "^0.24.0",
+    "oxlint": "^1.39.0",
+    "oxlint-tsgolint": "^0.11.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
