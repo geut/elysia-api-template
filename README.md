@@ -1,3 +1,6 @@
+<img width="1280" height="640" alt="image" src="https://github.com/user-attachments/assets/c66d44f2-ef11-44e5-b37f-77abc5f60faa" />
+
+
 # Elysia API Template
 
 A modern API template built with Elysia.js, featuring authentication, database integration, and development tooling.
